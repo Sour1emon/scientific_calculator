@@ -1,0 +1,14 @@
+[package]
+name = "scientific_calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+compute-pi = "1.0.0"
+lazy_static = "1.5.0"
+phf = { version = "0.11.2", features = ["macros"] }
+rug = "1.26.1"
+rand = "0.8.5"
+thiserror = "1.0.64"
+anyhow = "1.0.89"
+multipeek = "0.1.2"
